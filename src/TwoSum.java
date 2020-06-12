@@ -50,7 +50,7 @@ public class TwoSum {
             if (map.containsKey(theNum)){//如果哈希表中存在符合条件的变量   因为当前值还没有存入哈希表，所以不用担心会找到自身
                 return new int[]{map.get(theNum),i};//直接返回新数组
             }
-            map.put(nums[i],i);  //如果没有的话，忘哈希表中存入值以及对应的下标
+            map.put(nums[i],i);  //如果没有的话，哈希表中存入值以及对应的下标
         }
         return new int[]{};
     }
