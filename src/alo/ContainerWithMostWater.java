@@ -1,3 +1,5 @@
+package alo;
+
 public class ContainerWithMostWater {
     /**
      *双指针法

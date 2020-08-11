@@ -1,3 +1,5 @@
+package alo;
+
 import java.util.HashMap;
 
 /**
